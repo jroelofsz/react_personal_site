@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import me from './images/defaultProfilePic.jpg'
 import './App.css';
+import Header from './components/Header';
+import React, {useState} from 'react'
+import Home from './components/Home/Home';
+import Portfolio from './components/Portfolio/Portfolio';
 
-function App() {
+
+export default function App() {
+  //React hook to handle showing content on the page
+  const [showContent, setShowContent] = useState("Home");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="site-container">
+      <Header setShowContent={setShowContent}/>
+      {/* //ADD conditional rendering below */}
+      {showContent === "Home" && <Home/>}
+      {showContent === "Portfolio" && <Portfolio/>}
     </div>
-  );
+  )
 }
 
-export default App;
+
