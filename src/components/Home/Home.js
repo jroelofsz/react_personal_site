@@ -15,7 +15,7 @@ export default function Home() {
             profileName="Jacob Roelofsz"
             intro="Hello, my name is Jacob Roelofsz, for the past 2 years I’ve been working in the remodeling industry. I assisted with projects on renovating houses for property turnover. This gave me a brand-new insight on project management and problem solving. During that time, I also decided to explore my love for computers and technology, which led me to coding. I started with Code Academy, I taught myself HTML and CSS and decided that wasn’t enough. I knew my high school career was coming to an end soon so I decided I would attend Centriq Training to feed my drive to learn code."
             link="http://jacobroelofsz.com"
-            linkText="MVC Personal Site"
+            linkText="Learn more about me."
           />
           <CardSection
           title="Favorite Technologies"
