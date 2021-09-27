@@ -30,7 +30,8 @@ export default function Header(props) {
                 </button>
                 <ul>
                     <li onClick={() => handleContentChange("Home")}>Home</li>
-                    <li onClick={() => handleContentChange("Portfolio")}>Portfolio</li>
+                    <li onClick={() => handleContentChange("Portfolio")}>Portfolio (Hard coded)</li>
+                    <li onClick={() => handleContentChange("ReactLink")}>Portfolio (Using Data)</li>
                 </ul>
             </div>
         )}

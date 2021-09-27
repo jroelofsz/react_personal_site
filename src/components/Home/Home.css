@@ -185,7 +185,7 @@ section.col-md-3 p {
     font-family: "Comfortaa", cursive;
     font-weight: bolder;
     margin: 10px;
-
+    list-style: none;
 }
 
 .portfolio {
