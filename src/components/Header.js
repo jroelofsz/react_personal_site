@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import siteLogo from "../images/JRoelofszLogo.png";
 
 export default function Header(props) {
@@ -31,7 +31,7 @@ export default function Header(props) {
                 <ul>
                     <li onClick={() => handleContentChange("Home")}>Home</li>
                     <li onClick={() => handleContentChange("Portfolio")}>Portfolio (Hard coded)</li>
-                    <li onClick={() => handleContentChange("ReactLink")}>Portfolio (Using Data)</li>
+                    <li onClick={() => handleContentChange("ReactLink")}>Portfolio (Using JSON)</li>
                 </ul>
             </div>
         )}
